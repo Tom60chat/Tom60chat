@@ -26,7 +26,7 @@ Useful info:
 ##  
 <br/>
 
-🔭 I'm currently working on: *`See pinned projects`*
+🔭 I'm currently working on: *`See pinned projects (first = high priority)`*
 
 <!-- <tr><td> <a href=''></a> </td><td> <a href=''></a> </td></tr> -->
 
