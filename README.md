@@ -9,7 +9,7 @@ Useful info:
 <table>
 <tr><td> <a href='https://github.com/Tom60chat/DeskBand-Media-Controls'>:notes: Music controller for the taskbar</a> </td><td> <a href='https://github.com/Tom60chat/Smart-Guide'>:tv: Start big screen launchers with your controller</a> </td></tr>
 <tr><td> <a href='https://github.com/Tom60chat/Xbox-Live-Save-Exporter'>:video_game: Export your local Xbox/UWP PC game saves</a> </td><td> <a href='https://github.com/Tom60chat/Quick-start'>:running: Get your PC up and running quickly</a> </td></tr>
-<tr><td> <a href='https://github.com/Tom60chat/InstantCrypt'>:closed_lock_with_key: Encrypt decrypt everything in a few clicks</a> </td><td> <a href=''></a> </td></tr>
+<tr><td> <a href='https://github.com/Tom60chat/InstantCrypt'>:closed_lock_with_key: Encrypt/Decrypt everything in a few clicks</a> </td><td> <a href=''></a> </td></tr>
 </table>
 
 #### Some that can help you in your projects:
