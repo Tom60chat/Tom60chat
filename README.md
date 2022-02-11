@@ -7,20 +7,55 @@ Useful info:
 
 #### Here are some solutions you may find useful:
 <table>
-<tr><td> <a href='https://github.com/Tom60chat/DeskBand-Media-Controls'>:notes: Music controller for the taskbar</a> </td><td> <a href='https://github.com/Tom60chat/Smart-Guide'>:tv: Start big screen launchers with your controller</a> </td></tr>
-<tr><td> <a href='https://github.com/Tom60chat/Xbox-Live-Save-Exporter'>:video_game: Export your local Xbox/UWP PC game saves</a> </td><td> <a href='https://github.com/Tom60chat/Quick-start'>:running: Get your PC up and running quickly</a> </td></tr>
-<tr><td> <a href='https://github.com/Tom60chat/InstantCrypt'>:closed_lock_with_key: Encrypt/Decrypt everything in a few clicks</a> </td><td> <a href=''></a> </td></tr>
+ 
+ <tr><td>
+  <a href='https://github.com/Tom60chat/DeskBand-Media-Controls'>:notes: Music controller for the taskbar</a>
+ </td><td>
+  <a href='https://github.com/Tom60chat/Smart-Guide'>:tv: Start big screen launchers with your controller</a>
+ </td></tr>
+ 
+ <tr><td>
+  <a href='https://github.com/Tom60chat/Xbox-Live-Save-Exporter'>:video_game: Export your local Xbox/UWP PC game saves</a>
+ </td><td>
+  <a href='https://github.com/Tom60chat/Quick-start'>:running: Get your PC up and running quickly</a>
+ </td></tr>
+ 
+ <tr><td>
+  <a href='https://github.com/Tom60chat/InstantCrypt'>:closed_lock_with_key: Encrypt/Decrypt everything in a few clicks</a> </td><td> <a href=''></a
+ </td></tr>
+  
 </table>
 
 #### Some that can help you in your projects:
 <table>
-<tr><td> <a href='https://github.com/Tom60chat/Android-All-Cameras'>:camera: Initialize all cameras available on Android</a> </td><td> <a href='https://github.com/Tom60chat/ContainerReader'>:page_facing_up: Parse Xbox/UWP game save files</a> </td></tr>
-<tr><td> <a href='https://github.com/Tom60chat/Extension-List'>:card_file_box: List of different popular file types for testing</a> </td><td> <a href='https://github.com/Tom60chat/Global-Account-System-GAS---Unity'>:card_index: Global Account System for Unity games</a> </td></tr>
+ 
+ <tr><td>
+  <a href='https://github.com/Tom60chat/Android-All-Cameras'>:camera: Initialize all cameras available on Android</a>
+ </td><td>
+  <a href='https://github.com/Tom60chat/ContainerReader'>:page_facing_up: Parse Xbox/UWP game save files</a>
+ </td></tr>
+ 
+ <tr><td>
+  <a href='https://github.com/Tom60chat/Extension-List'>:card_file_box: List of different popular file types for testing</a>
+ </td><td>
+  <a href='https://github.com/Tom60chat/Global-Account-System-GAS---Unity'>:card_index: Global Account System for Unity games</a>
+ </td></tr>
+ 
+ <tr><td>
+  <a href='https://github.com/Tom60chat/InstantCrypt'>:camera: Photo/Video capture in your Android app in no time</a> </td><td> <a href=''></a
+ </td></tr>
+ 
 </table>
   
 #### And those one:  
 <table>
-<tr><td> <a href='https://github.com/Tom60chat/Microsoft-Rewards-Farmer-Sharp'>:farmer: Microsoft Rewards point farms</a> </td><td> <a href='https://github.com/Tom60chat/UserElevation'>:unlock: Administrator privileges from a user account</a> </td></tr>
+ 
+ <tr><td>
+  <a href='https://github.com/Tom60chat/Microsoft-Rewards-Farmer-Sharp'>:farmer: Microsoft Rewards point farms</a>
+ </td><td>
+  <a href='https://github.com/Tom60chat/UserElevation'>:unlock: Administrator privileges from a user account</a>
+ </td></tr>
+ 
 </table>
 
 ##  
