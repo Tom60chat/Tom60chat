@@ -21,7 +21,9 @@ Useful info:
  </td></tr>
  
  <tr><td>
-  <a href='https://github.com/Tom60chat/InstantCrypt'>:closed_lock_with_key: Encrypt/Decrypt everything in a few clicks</a> </td><td> <a href=''></a
+  <a href='https://github.com/Tom60chat/InstantCrypt'>:closed_lock_with_key: Encrypt/Decrypt everything in a few clicks</a>
+ </td><td>
+  <a href='https://github.com/Tom60chat/InstantZip'>🗜 Zip everything in two clicks</a>
  </td></tr>
   
 </table>
