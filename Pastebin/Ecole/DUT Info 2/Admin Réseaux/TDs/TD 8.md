@@ -1,4 +1,4 @@
-# TD 8 (Pas vérifier, complet)  
+# TD 8 (Pas vérifier)  
   
 1. `apt install iptables-persistent`  
 Yes & Yes  
