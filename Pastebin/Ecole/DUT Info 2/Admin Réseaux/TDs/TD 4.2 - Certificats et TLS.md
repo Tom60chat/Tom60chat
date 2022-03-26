@@ -1,4 +1,4 @@
-# TD 4.2 - Certificats et TLS
+# TD 4.2 - Certificats et TLS (Pas complet)
 
 1. `a2enmod ssl`  
 `systemctl restart apache2`  
