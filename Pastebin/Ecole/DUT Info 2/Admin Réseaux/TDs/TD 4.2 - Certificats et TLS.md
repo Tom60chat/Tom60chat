@@ -11,7 +11,7 @@ Generating a RSA private key`
 Metre en commentaire le SSCertificate  
 ![](https://cdn.discordapp.com/attachments/945701857127452692/945722764940177449/unknown.png)  
 
-# ça marche pas après (Help wanted)
+## ça marche pas après (Help wanted)
 
 5. `openssl s_client -connect www.dutxxx.iut-amiens.fr:443`  
 6. `nano /etc/bind/named.conf.local`  
