@@ -1,4 +1,4 @@
-# TD6 : LDAP (Pas vérifier, complet)  
+# TD 6 : LDAP (Pas vérifier, complet)  
 	
 ## Exercice 1  
 	
