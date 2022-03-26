@@ -1,6 +1,7 @@
 # TD 2.1 - Fonctionnement DNS
 
-Ex 1 - A partir du site http://www.root-servers.org/ :
+## Exercice 1
+A partir du site http://www.root-servers.org/ :
 
 1. Quel est l'IP du server E ?
 ```
@@ -41,7 +42,8 @@ C'est pour le réseau de recherche de la Croasie.
 Apple Computer Inc.
 ```
 
-Ex 3 - A partir du site du RIPE :
+## Exercice 3
+A partir du site du RIPE :
 
 1. A quel organisme appartient l'adresse IP 83.68.96.1 
 ```
