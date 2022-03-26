@@ -32,7 +32,7 @@ sudo grep dude /etc/shadow
 6. Créer un utilisateur pour vous, avec en commentaire (GECOS) la valeur NOM Prénom, vous utiliserez un login ne contenant que des minuscules et potentiellement des chiffres :
 ```bash
 sudo useradd -c "OLIVIER Tom" -s /bin/bash -m tom
-getent passwd tom
+getent passwd MonMotsDePass
 ```
 7. Positionner un mot de passe pour votre utilisateur :
 ```bash
