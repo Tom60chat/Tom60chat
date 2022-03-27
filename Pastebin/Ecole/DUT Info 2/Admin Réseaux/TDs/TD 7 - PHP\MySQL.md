@@ -1,4 +1,4 @@
-# TD 7. PHP/MySQL (Pas vérifer)  
+# TD 7. PHP/MySQL  
   
 ## Exercice 1  
   
