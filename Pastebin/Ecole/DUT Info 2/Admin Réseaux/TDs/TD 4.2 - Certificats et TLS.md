@@ -10,10 +10,10 @@ Generating a RSA private key`
 4. `nano /etc/apache2/sites-available/default-ssl.conf`  
 Metre en commentaire le SSCertificate  
 ![](https://cdn.discordapp.com/attachments/945701857127452692/945722764940177449/unknown.png)  
+5. `openssl s_client -connect www.dutxxx.iut-amiens.fr:443`  
 
 ## ça marche pas après (Help wanted)
 
-5. `openssl s_client -connect www.dutxxx.iut-amiens.fr:443`  
 6. `nano /etc/bind/named.conf.local`  
 Ajouter  
 ```
