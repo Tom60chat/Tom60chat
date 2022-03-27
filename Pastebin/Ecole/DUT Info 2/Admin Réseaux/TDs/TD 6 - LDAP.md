@@ -45,20 +45,27 @@ New password: toutpuissant
 Re-enter new password: toutpuissant
 {SSHA}2XX/aL4izk9NAryg62ttSrFQbaICF/6k
 ```
+5.
+`slappasswd`
+```
+New password: jarvis
+Re-enter new password: jarvis
+{SSHA}To0HZIqqK3e2fKqGAChSC0obSrdCdcL6
+```
 `nano user.ldif`  
 ```bash
-dn: uid=cd,ou=users,dc=dut16,dc=iut-amiens,dc=fr
+dn: uid=bruce,ou=users,dc=dut16,dc=iut-amiens,dc=fr
 objectClass: inetOrgPerson
 objectClass: posixAccount
 objectClass: shadowAccount
-loginShell: /bin/nologin
+loginShell: /sbin/nologin
 uid: cd
 uidNumber: 5001
 gidNumber: 5000
 givenName: Bruce
 sn: Wayne
 cn: Bruce Wayne
-homeDirectory: /sbin/nologin
+homeDirectory: /home/bruce
 displayName: Bruce Wayne
 gecos: Bruce Wayne
 shadowExpire: -1
@@ -68,28 +75,19 @@ shadowMin: 8
 shadowMax: 999999
 shadowLastChange: 10877
 userPassword: {SSHA}2XX/aL4izk9NAryg62ttSrFQbaICF/6k
-```
-`ldapadd -x -D "cn=admin,dc=dut16,dc=iut-amiens,dc=fr" -W -f user.ldif`  
-5. `slappasswd`
-```
-New password: jarvis
-Re-enter new password: jarvis
-{SSHA}To0HZIqqK3e2fKqGAChSC0obSrdCdcL6
-```
-`nano user2.ldif`
-```bash
-dn: uid=cd,ou=users,dc=dut16,dc=iut-amiens,dc=fr
+
+dn: uid=tony,ou=users,dc=dut16,dc=iut-amiens,dc=fr
 objectClass: inetOrgPerson
 objectClass: posixAccount
 objectClass: shadowAccount
-loginShell: /bin/nologin
+loginShell: /bin/bash
 uid: cd
 uidNumber: 5002
 gidNumber: 5000
 givenName: Tony
 sn: Stark
 cn: Tony Stark
-homeDirectory: /bin/bash
+homeDirectory: /home/tony
 displayName: Tony Stark
 gecos: Tony Stark
 shadowExpire: -1
@@ -99,8 +97,8 @@ shadowMin: 8
 shadowMax: 999999
 shadowLastChange: 10877
 userPassword: {SSHA}To0HZIqqK3e2fKqGAChSC0obSrdCdcL6
-```  
-`ldapadd -x -D "cn=admin,dc=dut16,dc=iut-amiens,dc=fr" -W -f user2.ldif`  
+```
+`ldapadd -x -D "cn=admin,dc=dut16,dc=iut-amiens,dc=fr" -W -f user.ldif`  
 6. `ldapsearch -h dut16.iut-amiens.fr -LLL -b "ou=people,dc=u-picardie,dc=fr" -x '(givenName=Tony)'`  
 
 ## Exercice 3  
