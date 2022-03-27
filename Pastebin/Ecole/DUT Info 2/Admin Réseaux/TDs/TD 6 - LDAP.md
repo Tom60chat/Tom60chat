@@ -120,8 +120,9 @@ cache_credentials = True
 ldap_search_base = ou=users,dc=dutXXX,dc=iut-amiens,dc=fr
 ldap_auth_disable_tls_never_use_in_production = true
 ```  
-`chmod 600 /etc/sssd/sssd.conf`  
-`pam-auth-update --enable mkhomedir`  
 `systemctl restart sssd`  
+`chmod 600 /etc/sssd/sssd.conf`  
 3. `id bruce`  
 Ne marche pas  
+4. `pam-auth-update --enable mkhomedir`  
+`systemctl restart sssd`  
