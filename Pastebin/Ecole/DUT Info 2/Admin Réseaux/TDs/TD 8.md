@@ -45,6 +45,7 @@ http://10.1.138.16/ ne doit plus être accessible.
 -A INPUT -p udp -m udp --sport 67:68 --dport 67:68 -j ACCEPT
 -A INPUT -j REJECT --reject-with icmp-host-prohibited
 -A FORWARD -j REJECT --reject-with icmp-host-prohibited
+COMMIT
 # Completed on Wed Mar 16 09:42:09 2022
 ```  
 7. `systemctl restart iptables`  
