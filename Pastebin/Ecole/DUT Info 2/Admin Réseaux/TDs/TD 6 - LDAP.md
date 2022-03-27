@@ -123,6 +123,5 @@ ldap_auth_disable_tls_never_use_in_production = true
 `chmod 600 /etc/sssd/sssd.conf`  
 `pam-auth-update --enable mkhomedir`  
 `systemctl restart sssd`  
-`id bruce`  
-  
+3. `id bruce`  
 Ne marche pas  
