@@ -7,7 +7,7 @@ Fleche du bas, entrée
 ![](https://cdn.discordapp.com/attachments/948598901106151495/948599390858276944/unknown.png)  
 ![](https://cdn.discordapp.com/attachments/948598901106151495/948599560035500092/unknown.png)  
 ![](https://cdn.discordapp.com/attachments/948598901106151495/948599645997772892/unknown.png)  
-2. `apt install mailutil`  
+2. `apt install mailutils`  
 3.  `mail root`  
 Ctrl + D pour envoyer  
 4. `mail`  
