@@ -99,13 +99,13 @@ shadowMin: 8
 shadowMax: 999999
 shadowLastChange: 10877
 userPassword: {SSHA}To0HZIqqK3e2fKqGAChSC0obSrdCdcL6
-```
+```  
 `ldapadd -x -D "cn=admin,dc=dut16,dc=iut-amiens,dc=fr" -W -f user2.ldif`  
-6. `ldapsearch -h dut16.iut-amiens.fr -LLL -b "ou=people,dc=u-picardie,dc=fr" -x '(givenName=Tony)'`
+6. `ldapsearch -h dut16.iut-amiens.fr -LLL -b "ou=people,dc=u-picardie,dc=fr" -x '(givenName=Tony)'`  
 
-## Exercice 3
-1. `apt install sssd-ldap`
-2. `nano /etc/sssd/sssd.conf`
+## Exercice 3  
+1. `apt install sssd-ldap`  
+2. `nano /etc/sssd/sssd.conf`  
 ```
 [sssd]
 services = nss, pam
@@ -119,10 +119,10 @@ ldap_uri = ldap://10.1.138.XXX
 cache_credentials = True
 ldap_search_base = ou=users,dc=dutXXX,dc=iut-amiens,dc=fr
 ldap_auth_disable_tls_never_use_in_production = true
-```
-`chmod 600 /etc/sssd/sssd.conf`
-`pam-auth-update --enable mkhomedir`
-`systemctl restart sssd`
-`id bruce`
-
-Ne marche pas
+```  
+`chmod 600 /etc/sssd/sssd.conf`  
+`pam-auth-update --enable mkhomedir`  
+`systemctl restart sssd`  
+`id bruce`  
+  
+Ne marche pas  
