@@ -15,7 +15,8 @@ Verisign, Inc.
 ```
 16 Decembre 2020
 ```
-Ex 2 - A partir du site http://www.iana.org/ :
+## Exercice 2
+A partir du site http://www.iana.org/ :
 
 1. Rechercher le TLD de Monaco ?
 ```
