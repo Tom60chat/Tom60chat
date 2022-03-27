@@ -83,20 +83,20 @@ Entrant (IMAP) : www.dutxxx.iut-amiens.fr:143
 Sortant (SMTP) : www.dutxxx.iut-amiens.fr:25  
 Require l'authetification  
 Ne pas mettre SSL  
-6. Content-Type: multipart/mixed;
-7. `wget https://www.u13.org/ressources/dut/fichier.txt.b64`
-8. `base64 -d fichier.txt.b64`
+6. Content-Type: multipart/mixed;  
+7. `wget https://www.u13.org/ressources/dut/fichier.txt.b64`  
+8. `base64 -d fichier.txt.b64`  
 ```
 Bonjour,
 
 Vous avez correctement décodé le message.
-```
-9. `nano fichier.txt`
+```  
+9. `nano fichier.txt`  
 ```
 Bonjour,
 
 Vous avez correctement décodé le message.
 Prenom NOM
-```
-`base64 fichier.txt > fichier.txt.b64`
-10. `cp fichier.txt.b64 /var/www/html/liste/`
+```  
+`base64 fichier.txt > fichier.txt.b64`  
+10. `cp fichier.txt.b64 /var/www/html/liste/`  
