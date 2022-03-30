@@ -64,12 +64,13 @@ Ajouter après `<Directory /var/www/html/private>`
 `mkdir liste2`  
 http://10.1.138.x/liste2/ => Forbiden  
 7 - `nano /etc/apache2/sites-enabled/000-default.conf`  
-![](https://cdn.discordapp.com/attachments/935810711102296064/935838310109151232/unknown.png)  
+Ajouter après `<Directory /var/www/html/liste>`  
+
+```
+        Alias /inti/ "/home/inti"
+```  
 `systemctl restart apache2`  
-http://10.1.138.X/liste/ => Dossier liste  
-```
-Alias /inti/ "/home/inti"
-```
+http://10.1.138.X/liste/ => Dossier liste 
 
 __Exercice 3__ :  
 1 - `nano /etc/apache2/sites-enabled/000-default.conf`   
