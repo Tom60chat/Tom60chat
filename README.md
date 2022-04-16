@@ -64,6 +64,8 @@ Useful info:
 <br/>
 
 🔭 I'm currently working on: *`See pinned projects (first = high priority)`*
+- Adv File Explorer (version 2)
+- LogitechG Macros
 
 <!-- <tr><td> <a href=''></a> </td><td> <a href=''></a> </td></tr> -->
 
