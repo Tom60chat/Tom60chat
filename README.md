@@ -65,7 +65,6 @@ Useful info:
 
 🔭 I'm currently working on:
  - Adv File Explorer (version 2)
- - LogitechG Macros
  - *`See pinned projects (first = high priority)`*
 
 <!-- <tr><td> <a href=''></a> </td><td> <a href=''></a> </td></tr> -->
