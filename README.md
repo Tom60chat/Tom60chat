@@ -63,7 +63,7 @@ Useful info:
 ##  
 <br/>
 
-Please acknowledge that I work on the projects in my spare time (so every weekend). Development of projects may take more than a year to complete or will not be completed.
+Please acknowledge that I work on projects in my spare time (so every weekend). Development of projects may take more than a year to complete or will not be completed.
 The projects are done mostly by me without help, so any contribution is welcome.
  
 ##  
