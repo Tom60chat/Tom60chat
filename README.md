@@ -44,9 +44,9 @@ Useful info:
  </td></tr>
  
  <tr><td>
-  <a href='https://github.com/Tom60chat/InstantCrypt'>:camera: Photo/Video capture in your Android app in no time</a> </td><td> <a href=''></a
+  <a href='https://github.com/Tom60chat/InstantCrypt'>:camera: Photo/Video capture in your Android app in no time</a>
  </td><td>
-  <a href='https://github.com/Tom60chat/Global-Account-System-GAS---Unity'>:card_index: Global Account System for Unity games</a>
+  <a href='https://github.com/Tom60chat/WinRT-Safe-Storage'>:file_folder: Crash free UWP file access and management</a>
  </td></tr>
  
 </table>
@@ -57,7 +57,7 @@ Useful info:
  <tr><td>
   <a href='https://github.com/Tom60chat/Microsoft-Rewards-Farmer-Sharp'>:farmer: Microsoft Rewards point farms</a>
  </td><td>
-  <a href='https://github.com/Tom60chat/WinRT-Safe-Storage'>:file_folder: Crash free UWP file access and management</a>
+  <a href='https://github.com/Tom60chat/UserElevation'>:unlock: Administrator privileges from a user account</a>
  </td></tr>
  
 </table>
