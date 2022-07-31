@@ -44,7 +44,7 @@ Useful info:
  </td></tr>
  
  <tr><td>
-  <a href='https://github.com/Tom60chat/InstantCrypt'>:camera: Photo/Video capture in your Android app in no time</a>
+  <a href='https://github.com/Tom60chat/Android-CameraCapture'>:camera: Photo/Video capture in your Android app in no time</a>
  </td><td>
   <a href='https://github.com/Tom60chat/WinRT-Safe-Storage'>:file_folder: Crash free UWP file access and management</a>
  </td></tr>
