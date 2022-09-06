@@ -2,7 +2,7 @@
 
 1. Modifiez le nom de votre serveur  
 
-
+`sudo nano /etc/hostname`  
 
 2. Créez vous un utilisateur membre du groupe "sudo" et positionnez un mot de passe  
 
