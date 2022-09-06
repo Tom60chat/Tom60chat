@@ -17,5 +17,5 @@
 ![image](https://user-images.githubusercontent.com/25564492/188652345-7fc34791-43da-4d1c-a3b8-b44c2833c3c7.png) 
 
 ?. Apache ?  
-`sudo apt update` 
-`sudo apt install apache2` 
+`sudo apt update`  
+`sudo apt install apache2`  
