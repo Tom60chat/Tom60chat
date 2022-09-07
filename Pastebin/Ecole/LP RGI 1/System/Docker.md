@@ -8,3 +8,6 @@
   
 `sudo docker login -u tom60chat`  
   
+`sudo docker run hello-world`  
+`sudo docker pull alpine`
+
