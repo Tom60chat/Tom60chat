@@ -78,6 +78,8 @@ Vous devriez avoir ça à la fin :
 
 `docker run -d -p 8082:80 --name=dock2 -v web2:/usr/local/apache2/htdocs httpd`
 
+`docker inspect dock2`
+
 `curl http://localhost:8082`  
 ![img.png](Images/img.png)
 
