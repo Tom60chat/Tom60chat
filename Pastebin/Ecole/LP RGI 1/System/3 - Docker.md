@@ -73,6 +73,8 @@ Vous devriez avoir ça à la fin :
 
 `docker run -d -p 8082:80 --name=dock2 -v web2:/usr/local/apache2/htdocs httpd`
 
+`curl http://localhost:8082`
+
 `nano /var/tmp/apache/index.html`
 
 `docker run -d -p 8083:80 --name=dock3 -v /var/tmp/apache:/usr/local/apache2/htdocs httpd`
