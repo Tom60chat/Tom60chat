@@ -13,7 +13,7 @@ El famouso : `sudo -s`
 `docker run hello-world`  
 `docker pull alpine`
 
-Vous devriez avoir ça à la fin :
+Vous devriez avoir ça à la fin :  
 ![Docker images](https://user-images.githubusercontent.com/25564492/192715689-7fa95d16-2fa0-42d5-bdef-6e62c3632ec9.png)
 
 # Cours (Vous pouvez ignorer cette partie)
@@ -30,7 +30,7 @@ Vous devriez avoir ça à la fin :
 
 ![image](https://user-images.githubusercontent.com/25564492/192722957-329b0bb9-a5a6-4f5d-9642-549e3800a41b.png)
 
-# je sais pas trop là mais faut le faire je crois même si c'est pas dans le TD
+# Entrainement je pense (toujours pas le TD)
 
 `docker pull httpd`
 
@@ -81,34 +81,41 @@ Vous devriez avoir ça à la fin :
 `docker inspect dock2`
 
 `curl http://localhost:8082`  
-![img.png](Images/img.png)
-
-`nano /var/tmp/apache/index.html`
-
-`docker run -d -p 8083:80 --name=dock3 -v /var/tmp/apache:/usr/local/apache2/htdocs httpd`
+![img.png](Images/img1.png)
 
 # TD1 - Docker
 
-```
-docker search wordpress
-docker pull wordpress:latest
-docker search mariadb
-docker pull mariadb:latest
+1. `docker pull wordpress:latest`
 
-docker network create rezorgi
-docker volume create vol6_bd
+2. `docker pull mariadb:latest`
 
-docker run -d --name=dock6-bd -v vol6_bd:/var/lib/mysql --network rezorgi -e MYSQL_ROOT_PASSWORD=4321 -e MYSQL_DATABASE=bdd -e MYSQL_USER=bdd -e MYSQL_PASSWORD=4321 --rm mariadb
+3. `docker network create rezorgi`
 
-docker run -d -p 3101:80 --name=dock6-wp -v vol6_bd:/var/lib/mysql --network rezorgi -e WORDPRESS_DB_HOST=dock6-bd:3306 -e WORDPRESS_DB_USER=bdd -e WORDPRESS_DB_PASSWORD=4321 -e WORDPRESS_DB_NAME=bdd --rm wordpress
-```
+4. `docker volume create vol6_bd`
 
-a un moment il vous seras demandé de créer un script c'est ce qu'il faudras rentrer dedans je précise que ce qu'il y a entre [] est a modifié pour vous c'est le mot de passe etc pour la bdd vous mettez ce que vous voulez mais ça doit correspondre entre mariadb et wordpress !
+5. `docker run -d --name=dock6-bd -v vol6_bd:/var/lib/mysql --network rezorgi -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=bdd -e MYSQL_USER=user -e MYSQL_PASSWORD=password --rm mariadb`
 
-Si jamais vous rencontrez des problèmes avec la connexion de base de donnée wordpress vous devez faire attention que MYSQL_USER et WORDPRESS_DB_USER soit les même ainsi que MYSQL_PASSWORD et WORDPRESS_DB_PASSWORD
+6. `docker ps`
 
-Une fois que vous aurez tout fait vous pourrez accéder a votre wordpress pour cela il faudras ouvrir un CMD a coté
-taper la commande :
-ssh -L 3101:10.1.137.[num]:3101 [utilisateur]@10.1.137.[num]
-et ensuite vous pourrez accéder a ce site
-http://localhost:3101/
+7. Les ports ...
+
+8. `docker run -d -p 3101:80 --name=dock6-wp -v vol6_bd:/var/lib/mysql --network rezorgi -e WORDPRESS_DB_HOST=dock6-bd:3306 -e WORDPRESS_DB_USER=user -e WORDPRESS_DB_PASSWORD=password -e WORDPRESS_DB_NAME=bdd --rm wordpress`
+
+9. `docker ps`
+
+10. `docker logs [id]`
+
+11. `nano /root/td31.sh`
+   ```
+   docker pull wordpress:latest
+   docker pull mariadb:latest
+
+   docker network create rezorgi
+   docker volume create vol6_bd
+
+   docker run -d --name=dock6-bd -v vol6_bd:/var/lib/mysql --network rezorgi -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=bdd -e MYSQL_USER=user -e MYSQL_PASSWORD=password --rm mariadb
+   docker run -d -p 3101:80 --name=dock6-wp -v vol6_bd:/var/lib/mysql --network rezorgi -e WORDPRESS_DB_HOST=dock6-bd:3306 -e WORDPRESS_DB_USER=user -e WORDPRESS_DB_PASSWORD=password -e WORDPRESS_DB_NAME=bdd --rm wordpress
+   ```
+
+Pour ce connecter au serveur, vous pouvez avec putty : 
+![img.png](Images/img2.png)
