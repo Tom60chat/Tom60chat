@@ -85,3 +85,4 @@ docker run -d --name=dock6-bd -v vol6_bd:/var/lib/mysql --network rezorgi -e MYS
 docker run -d -p 3101:80 --name=dock6-wp -v vol6_bd:/var/lib/mysql --network rezorgi -e WORDPRESS_DB_HOST=dock6-bd:3306 -e WORDPRESS_DB_USER=bdd -e WORDPRESS_DB_PASSWORD=4321 -e WORDPRESS_DB_NAME=bdd --rm wordpress
 ```
 
+a un moment il vous seras demandé de créer un script c'est ce qu'il faudras rentrer dedans je précise que ce qu'il y a entre [] est a modifié pour vous c'est le mot de passe etc pour la bdd vous mettez ce que vous voulez mais ça doit correspondre entre mariadb et wordpress !
