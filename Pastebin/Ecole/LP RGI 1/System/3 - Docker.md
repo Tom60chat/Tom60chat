@@ -35,3 +35,15 @@ Vous devriez avoir ça à la fin :
 `docker run -d -p 8080:80 --rm --name Apache httpd`
 
 `curl -i http://localhost:8080`
+
+`docker network create mynet1`
+
+![image](https://user-images.githubusercontent.com/25564492/192728810-1d54569b-ab4c-4f2e-9785-a8b285039775.png)
+
+`docker run -t -d --rm --name a1-mynet1 --network mynet1 alpine`
+
+`docker exec a1-mynet1 hostname -i`
+
+`docker run -t -d --rm --name a2-mynet1 --network mynet1 alpine`
+
+`docker exec a2-mynet1 hostname -i`
