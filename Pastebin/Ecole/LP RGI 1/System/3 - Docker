@@ -1,13 +1,15 @@
 # Prérequis  
   
-`sudo apt update`  
-`sudo apt install docker.io`  
+`apt update`  
+`apt install docker.io`  
   
-`sudo systemctl start docker`  
-`sudo systemctl enable docker`  
+`systemctl start docker`  
+`systemctl enable docker`  
   
-`sudo docker login -u tom60chat`  
+`docker login -u tom60chat`  
   
-`sudo docker run hello-world`  
-`sudo docker pull alpine`
+`docker run hello-world`  
+`docker pull alpine`
+
+
 
