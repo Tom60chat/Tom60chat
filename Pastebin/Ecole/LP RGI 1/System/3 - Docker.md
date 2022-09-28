@@ -119,3 +119,7 @@ Vous devriez avoir ça à la fin :
 
 Pour ce connecter au serveur, vous pouvez avec putty :   
 ![img.png](Images/img2.png)
+
+Ensuite commencer l'installation de WordPress :
+![img.png](Images/img3.png)
+Puis "Installer WordPress"
