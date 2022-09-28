@@ -36,10 +36,12 @@ Vous devriez avoir ça à la fin :
 
 `docker run -d -p 8080:80 --rm --name Apache httpd`
 
+`curl -i http://localhost:8080`  
 ![image](https://user-images.githubusercontent.com/25564492/192730077-bd2664d0-007b-440f-892b-51cb0510bba7.png)
 
 `docker network create mynet1`
 
+`docker network list`  
 ![image](https://user-images.githubusercontent.com/25564492/192728810-1d54569b-ab4c-4f2e-9785-a8b285039775.png)
 
 `docker run -t -d --rm --name a1-mynet1 --network mynet1 alpine`
@@ -62,18 +64,22 @@ Vous devriez avoir ça à la fin :
 
 `docker run -d -p 8081:80 --name=dock1 -v web1:/usr/local/apache2/htdocs httpd`
 
-`docker inspect dock1`
+`docker inspect dock1`   
+...
 
 `ls -l /var/lib/docker/volumes/web1/_data`
 
 `docker volume create web2`
 
-`nano /var/lib/docker/volumes/web2/_data/index.htm`  
-![image](https://user-images.githubusercontent.com/25564492/192730704-91e367b7-dcf3-48b6-95e9-c40a10884d7e.png)
+`nano /var/lib/docker/volumes/web2/_data/index.html`
+```html
+<html><body>Super</body></html>
+```
 
 `docker run -d -p 8082:80 --name=dock2 -v web2:/usr/local/apache2/htdocs httpd`
 
-`curl http://localhost:8082`
+`curl http://localhost:8082`  
+![img.png](Images/img.png)
 
 `nano /var/tmp/apache/index.html`
 
