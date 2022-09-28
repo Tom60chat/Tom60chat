@@ -68,7 +68,7 @@ Vous devriez avoir ça à la fin :
 
 `docker volume create web2`
 
-`nano /var/lib/docker/volumes/web1/_data/index.htm`  
+`nano /var/lib/docker/volumes/web2/_data/index.htm`  
 ![image](https://user-images.githubusercontent.com/25564492/192730704-91e367b7-dcf3-48b6-95e9-c40a10884d7e.png)
 
 `docker run -d -p 8082:80 --name=dock2 -v web2:/usr/local/apache2/htdocs httpd`
