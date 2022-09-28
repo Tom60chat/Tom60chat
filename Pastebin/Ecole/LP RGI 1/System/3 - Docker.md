@@ -117,5 +117,5 @@ Vous devriez avoir ça à la fin :
    docker run -d -p 3101:80 --name=dock6-wp -v vol6_bd:/var/lib/mysql --network rezorgi -e WORDPRESS_DB_HOST=dock6-bd:3306 -e WORDPRESS_DB_USER=user -e WORDPRESS_DB_PASSWORD=password -e WORDPRESS_DB_NAME=bdd --rm wordpress
    ```
 
-Pour ce connecter au serveur, vous pouvez avec putty : 
+Pour ce connecter au serveur, vous pouvez avec putty :   
 ![img.png](Images/img2.png)
