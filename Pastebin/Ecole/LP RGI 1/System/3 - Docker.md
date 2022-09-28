@@ -8,7 +8,7 @@ El famouso : `sudo -s`
 `systemctl start docker`  
 `systemctl enable docker`  
   
-`docker login -u tom60chat`  
+`docker login -u tom60chat`  v
   
 `docker run hello-world`  
 `docker pull alpine`
@@ -57,7 +57,7 @@ Vous devriez avoir ça à la fin :
 
 `docker volume create web1`
 
-`docker volume inspect web1`
+`docker volume inspect web1`  
 ![image](https://user-images.githubusercontent.com/25564492/192731786-fc401f90-89cc-4452-9588-cbcf6bb8f7a2.png)
 
 `docker run -d -p 8081:80 --name=dock1 -v web1:/usr/local/apache2/htdocs httpd`
