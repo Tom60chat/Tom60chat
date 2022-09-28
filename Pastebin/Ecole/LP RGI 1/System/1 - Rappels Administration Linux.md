@@ -1,4 +1,4 @@
-# TD 1
+# 1 - Rappels Administration Linux
  
 
 2. Créez vous un utilisateur membre du groupe "sudo" et positionnez un mot de passe  
