@@ -1,3 +1,5 @@
+El famouso : `sudo -s`
+
 # Prérequis  
   
 `apt update`  
@@ -28,13 +30,13 @@ Vous devriez avoir ça à la fin :
 
 ![image](https://user-images.githubusercontent.com/25564492/192722957-329b0bb9-a5a6-4f5d-9642-549e3800a41b.png)
 
-# je sais pas trop là
+# je sais pas trop là mais faut le faire je crois même si c'est pas dans c'est TD
 
 `docker pull httpd`
 
 `docker run -d -p 8080:80 --rm --name Apache httpd`
 
-`curl -i http://localhost:8080`
+![image](https://user-images.githubusercontent.com/25564492/192730077-bd2664d0-007b-440f-892b-51cb0510bba7.png)
 
 `docker network create mynet1`
 
@@ -42,8 +44,44 @@ Vous devriez avoir ça à la fin :
 
 `docker run -t -d --rm --name a1-mynet1 --network mynet1 alpine`
 
-`docker exec a1-mynet1 hostname -i`
+![image](https://user-images.githubusercontent.com/25564492/192730343-48f4e5f5-e168-430b-bf3f-61484e106b35.png)
 
 `docker run -t -d --rm --name a2-mynet1 --network mynet1 alpine`
 
-`docker exec a2-mynet1 hostname -i`
+![image](https://user-images.githubusercontent.com/25564492/192730383-556ce633-b03d-4fef-8f72-459753a6ffc8.png)
+
+![image](https://user-images.githubusercontent.com/25564492/192730263-3709cb91-d484-4da5-8367-82fda90fe56e.png)
+
+`docker volume create web1`
+
+`docker volume inspect web1`
+
+`docker run -d -p 8081:80 --name=dock1 -v web1:/usr/local/apache2/htdocs httpd`
+
+`docker inspect dock1`
+
+`nano /var/lib/docker/volumes/web2/_data/index.htm`
+![image](https://user-images.githubusercontent.com/25564492/192730704-91e367b7-dcf3-48b6-95e9-c40a10884d7e.png)
+
+`docker run -d -p 8082:80 --name=dock2 -v web2:/usr/local/apache2/htdocs httpd`
+
+`nano /var/tmp/apache/index.html`
+
+`docker run -d -p 8083:80 --name=dock3 -v /var/tmp/apache:/usr/local/apache2/htdocs httpd`
+
+# TD1 - Docker
+
+```
+docker search wordpress
+docker pull wordpress:latest
+docker search mariadb
+docker pull mariadb:latest
+
+docker network create rezorgi
+docker volume create vol6_bd
+
+docker run -d --name=dock6-bd -v vol6_bd:/var/lib/mysql --network rezorgi -e MYSQL_ROOT_PASSWORD=4321 -e MYSQL_DATABASE=bdd -e MYSQL_USER=bdd -e MYSQL_PASSWORD=4321 --rm mariadb
+
+docker run -d -p 3101:80 --name=dock6-wp -v vol6_bd:/var/lib/mysql --network rezorgi -e WORDPRESS_DB_HOST=dock6-bd:3306 -e WORDPRESS_DB_USER=bdd -e WORDPRESS_DB_PASSWORD=4321 -e WORDPRESS_DB_NAME=bdd --rm wordpress
+```
+
