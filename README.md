@@ -72,9 +72,9 @@ The projects are done mostly by me without help, so any contribution is welcome.
 <br/>
 
 🔭 I'm currently working on:
- - Kt CameraTool
+ - Kt
  - Adv File Explorer V2
- - *`See pinned projects (first = high priority)`*
+ <!-- *`See pinned projects (first = high priority)`*-->
 
 <!-- <tr><td> <a href=''></a> </td><td> <a href=''></a> </td></tr> -->
 
