@@ -25,6 +25,12 @@ Useful info:
  </td><td>
   <a href='https://github.com/Tom60chat/InstantZip'>🗜 Zip everything in two clicks</a>
  </td></tr>
+ 
+ <tr><td>
+  <a href='https://github.com/Tom60chat/Portable-store'>:package: Install app at work/school, or in the cloud</a>
+ </td><td>
+  <!--a href=' '> </a-->
+ </td></tr>
   
 </table>
 
