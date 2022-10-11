@@ -72,6 +72,7 @@ The projects are done mostly by me without help, so any contribution is welcome.
 <br/>
 
 🔭 I'm currently working on:
+ - Portable store
  - Kt
  - Adv File Explorer V2
  <!-- *`See pinned projects (first = high priority)`*-->
