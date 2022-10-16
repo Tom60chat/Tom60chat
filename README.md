@@ -78,9 +78,10 @@ The projects are done mostly by me without help, so any contribution is welcome.
 <br/>
 
 🔭 I'm currently working on:
- - Portable store
+ - MRF
  - Kt
  - Adv File Explorer V2
+ - Portable store
  <!-- *`See pinned projects (first = high priority)`*-->
 
 <!-- <tr><td> <a href=''></a> </td><td> <a href=''></a> </td></tr> -->
