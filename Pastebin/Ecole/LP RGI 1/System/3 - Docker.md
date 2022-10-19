@@ -121,5 +121,6 @@ Pour ce connecter au serveur, vous pouvez avec putty :
 ![img.png](Images/img2.png)
 
 Ensuite commencer l'installation de WordPress :
+http://localhost:3101
 ![img.png](Images/img3.png)
 Puis "Installer WordPress"
