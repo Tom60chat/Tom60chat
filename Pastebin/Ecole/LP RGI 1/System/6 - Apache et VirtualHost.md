@@ -24,7 +24,7 @@
        CustomLog /var/www/vhosts/w2.XX.lprgi.u13.org/log/access_log combined
    </VirtualHost>
    ```
-6. `a2ensite w1.53.lprgi.u13.org w2.53.lprgi.u13.org`
+6. `a2ensite w1.XX.lprgi.u13.org w2.XX.lprgi.u13.org`
    `systemctl reload apache2`
 7. `nano /etc/apache2/sites-available/w1.XX.lprgi.u13.org.conf`
    ```apache
