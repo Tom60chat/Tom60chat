@@ -59,7 +59,7 @@ Useful info:
  <tr><td>
   <a href='https://github.com/Tom60chat/Hitman'>:gun: Close a program when the user closes your program</a>
  </td><td>
-  <!--a href=' '> </a-->
+  <a href='https://github.com/Tom60chat/Ez-console'>:desktop: Colorful console for C# projects</a>
  </td></tr>
  
 </table>
