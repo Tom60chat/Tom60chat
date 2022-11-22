@@ -6,6 +6,7 @@ Useful info:
 ## Welcome to the cat's den 👋
 
 #### Here are some solutions you may find useful:
+
 <table>
  
  <tr><td>
@@ -53,6 +54,12 @@ Useful info:
   <a href='https://github.com/Tom60chat/Android-CameraCapture'>:camera: Photo/Video capture in your Android app in no time</a>
  </td><td>
   <a href='https://github.com/Tom60chat/WinRT-Safe-Storage'>:file_folder: Crash free UWP file access and management</a>
+ </td></tr>
+ 
+ <tr><td>
+  <a href='https://github.com/Tom60chat/Hitman'>:gun: Close a program when the user closes your program</a>
+ </td><td>
+  <a href='https://github.com/Tom60chat/Ez-console'>:desktop_computer: Colorful console for C# projects</a>
  </td></tr>
  
 </table>
