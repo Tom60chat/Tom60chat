@@ -30,17 +30,20 @@
 
    Alias /Downloads/ /var/www/downloads/
    ```
-   http://www.53.lprgi.u13.org/Downloads/
+   http://www.XX.lprgi.u13.org/Downloads/
 
 4. `echo "😺 Les chats c'est la vie !" > /var/www/downloads/README.md`
 
 5. `sudo a2enmod rewrite`
-   `nano /etc/apache2/conf-available/lprgi.conf`
+   `nano /etc/apache2/sites-available/www.XX.lprgi.u13.org.conf`
+   Ajouter
    ```apache
    ...
-   # Fonctionne pas
    RewriteEngine on
-   RewriteRule ^(.*)\.html$ $1.html [L]
+   RewriteRule ^(.*)\.htm$ $1.html [L]
    ```
+   `sudo nano /var/www/vhosts/w1.XX.lprgi.u13.org/html/toto.html`
+   Mettre ce que vous voulez dedans
 
+http://www.XX.lprgi.u13.org/toto.htm
 

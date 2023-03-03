@@ -12,3 +12,6 @@
    SSLCertificateFile /etc/ssl/certs/ssl.XXX.lprgi.u13.org.crt
    SSLCertificateKeyFile /etc/ssl/private/ssl.XXX.lprgi.u13.org.key
    ```
+a2ensite default-ssl
+
+nouveau virtual host
