@@ -41,52 +41,9 @@ http://proxy.XXX.lprgi.u13.org/tempor/ch4/xss/?toto=%3Cscript%3Econsole.log(hell
 http://www.XXX.lprgi.u13.org
 http://w1.XXX.lprgi.u13.org
 http://w2.XXX.lprgi.u13.org
-http://joomla.XXX.lprgi.u13.org.conf
-https://ssl.XXX.lprgi.u13.org.conf
-http://tomcat.XXX.lprgi.u13.org.conf
-http://wp.XXX.lprgi.u13.org.conf
+http://joomla.XXX.lprgi.u13.org
+https://ssl.XXX.lprgi.u13.org
+http://tomcat.XXX.lprgi.u13.org
+http://wp.XXX.lprgi.u13.org
 
-
-------------------
-
-1. Configurer un nouveau VirtualHost pour ce nom DNS qui sera en fait un reverse proxy vers le site « www.u13.org »,
-```bash
-sudo nano /etc/apache2/sites-available/u13.XXX.lprgi.u13.org.conf
-```
-```apache
-<VirtualHost *:80>
-    ServerName u13.XXX.lprgi.u13.org
-    ProxyPass / http://www.u13.org/
-    ProxyPassReverse / http://www.u13.org/
-</VirtualHost>
-```
-2. Installer le module Apache « mod_security »
-```bash
-sudo apt install libapache2-mod-security2
-```
-
-3. Activer le module « mod_security »
-```bash
-sudo a2enmod security2
-```
-
-4. Redémarrer Apache
-```bash
-sudo service apache2 restart
-```
-
-5. Créer un fichier de configuration pour « mod_security »
-```bash
-sudo nano /etc/apache2/mods-enabled/security2.conf
-```
-
-6. Testez les différentes attaques réalisées précédemment en passant par ce site,
-```bash
-curl -A "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" http://u13.XXX.lprgi.u13.org/
-```
-
-7. Vérifiez également que vos autres sites fonctionnent encore correctement,
-```bash
-curl -A "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" http://www.XXX.lprgi.u13.org/
-```
 
