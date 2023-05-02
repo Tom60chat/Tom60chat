@@ -7,6 +7,7 @@
    `groupadd sftpusers`
 
 3. `usermod -a -G sshusers root`
+   `usermod -a -G sshusers VotreUtilisateur`
 
 4. `useradd -c "httpw1" -d /var/www/vhosts/w1.XXX.lprgi.u13.org -s /usr/sbin/nologin  -g sftpusers httpw1`
    `useradd -c "httpw2" -d /var/www/vhosts/w2.XXX.lprgi.u13.org -s /usr/sbin/nologin  -g sftpusers httpw2`
@@ -43,7 +44,7 @@
 
 12. `/bin/nano etud-w.sh`
     ```bash
-    # !bin/bash
+    #!/bin/bash
 
     ssh -i .ssh/lprgi x12345678@etud.dptinfo.iut-amiens.fr w
     ```
