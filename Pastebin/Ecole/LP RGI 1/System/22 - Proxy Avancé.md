@@ -9,7 +9,7 @@ apt install squid
 ```
 2. Ajoutez une règle pour interdire l'accès au site facebook.com.
 ```bash
-vim /etc/squid/conf.d/facebook.conf
+nano /etc/squid/conf.d/facebook.conf
 ```
 ```conf
 acl facebook dstdomain .facebook.com
