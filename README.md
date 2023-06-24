@@ -86,7 +86,6 @@ The projects are done mostly by me without help, so any contribution is welcome.
 
 🔭 I'm currently working on:
  - My self
- - MRF sometime
  <!-- *`See pinned projects (first = high priority)`*-->
 
 <!-- <tr><td> <a href=''></a> </td><td> <a href=''></a> </td></tr> -->
