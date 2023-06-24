@@ -68,7 +68,7 @@ Useful info:
 <table>
  
  <tr><td>
-  <a href='https://github.com/Tom60chat/Microsoft-Rewards-Farmer-Sharp'>:farmer: Microsoft Rewards point farms</a>
+  <a href='https://gitlab.com/Tom60chat/Microsoft-Rewards-Farmer-Sharp'>:farmer: Microsoft Rewards point farms</a>
  </td><td>
   <a href='https://github.com/Tom60chat/UserElevation'>:unlock: Administrator privileges from a user account</a>
  </td></tr>
