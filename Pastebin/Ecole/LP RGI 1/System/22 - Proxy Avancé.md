@@ -27,7 +27,32 @@ Tester :
 
 1. Créez un serveur Web en utilisant un conteneur Docker en passant par un docker-compose et la commande "docker stack".
 
+```yaml
+version: "3.9"
+
+services:
+  web:
+    image: httpd
+    volumes:
+      - ./www:/usr/local/apache2/htdocs
+    ports:
+      - 80:80
+```
+
+```bash
+docker stack deploy -c docker-compose.yml web
+```
+
 2. Vous exporterez la racine des pages Web via un volume docker accessible en local.
+
+```bash
+mkdir www
+echo "Hello World" > www/index.html
+```
+
+```bash
+curl http://localhost
+```
 
 3. Créez un virtualhost Apache basé sur le nom "pm.XX.lprgi.u13.org" qui sera un reverse proxy vers le conteneur précédant mais en utilisant uniquement les règles de réécritures (pas de ProxyPass ni de ProxyPassReverse).
 
